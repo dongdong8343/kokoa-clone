@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <style>
+      :root {
+        --main-color: rgb(85, 202, 94);
+      }
+      button:focus-within {
+        background-color: blue;
+        color: var(--main-color);
+      }
+      main {
+        text-align: center;
+        color: brown;
+      }
+      h1 {
+        text-align: center;
+        color: red;
+        background-color: blue;
+      }
+      a {
+        color: tomato;
+        background-color: blue;
+        border-radius: 30px;
+        font-size: 50px;
+        transition: all 1s ease-in-out;
+      }
+      a:hover {
+        color: blue;
+        background-color: tomato;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>동글동글</title>
+    <link
+      rel="shortcut icon"
+      href="https://media.istockphoto.com/photos/3d-render-neon-light-round-frame-blank-space-for-text-ultraviolet-picture-id1058077096?b=1&k=20&m=1058077096&s=170667a&w=0&h=YrXQIuJUb37tXudgF42whtp4kyAwpO5MF70DCz7ynsc="
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>클론코딩 5일차</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="first-name">성</label>
+          <input id="first-name" required placeholder="성" , type="text" />
+        </div>
+        <div>
+          <label for="second">이름</label>
+          <input id="second" required placeholder="이름" , type="text" />
+        </div>
+        <div>
+          <laber for="password">비밀번호</laber>
+          <input
+            id="password"
+            required
+            placeholder="비밀번호"
+            ,
+            type="password"
+          />
+        </div>
+        <div>
+          <input type="submit" value="제출" />
+        </div>
+        <div>
+          <button>hi</button>
+        </div>
+      </form>
+      <img
+        class="pic"
+        ,
+        src="https://media.istockphoto.com/photos/3d-render-neon-light-round-frame-blank-space-for-text-ultraviolet-picture-id1058077096?b=1&k=20&m=1058077096&s=170667a&w=0&h=YrXQIuJUb37tXudgF42whtp4kyAwpO5MF70DCz7ynsc="
+      />
+      <p>
+        <a href="http://www.naver.com">hello</a>
+      </p>
+    </main>
+  </body>
+</html>
